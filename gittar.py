@@ -4,8 +4,10 @@ import codecs
 import os
 import shutil
 import sys
-import zipfile
 import xml.dom.minidom
+import zipfile
+
+VERSION = "0.0.1"
 
 def try_expand_xml(filename):
     try:
